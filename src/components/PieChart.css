@@ -1,0 +1,36 @@
+.pie-chart-card {
+  padding: 1rem;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+  width: 250px;
+  text-align: center;
+  margin: 1rem;
+}
+
+.pie-chart {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  border: 4px solid #eee;
+}
+
+.legend {
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.color-box {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border-radius: 3px;
+}
